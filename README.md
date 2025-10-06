@@ -5,14 +5,12 @@ Aplikasi Poliklinik ini dirancang untuk memudahkan pengelolaan layanan kesehatan
 ## 🚀 Cara Menjalankan
 
 ### 1. Clone & Install
-> git clone https://github.com/liliianaa/WebPresentationApp-PWL.git
-> cd WebPresentationApp-PWL
-> composer install
-> npm install
-> cp env .env
-> php artisan key:generate
-> npm run dev
-> php artisan serve
+- git clone https://github.com/liliianaa/WebPresentationApp-PWL.git
+- cd WebPresentationApp-PWL
+- composer install
+- cp env .env
+- php artisan key:generate
+- php artisan serve
 
 ### 2. Setup Database
 
