@@ -80,6 +80,16 @@
                             </p>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="{{ route('pasien.daftar.index') }}"
+                            class="nav-link {{ request()->routeIs('pasien.daftar') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-hospital-user"></i>
+                            <p>
+                                Poli
+                            </p>
+                        </a>
+                    </li>
                 @endif
 
                 <!-- ROLE DOKTER -->
@@ -90,6 +100,16 @@
                             <i class="nav-icon fas fa-columns"></i>
                             <p>
                                 Dashboard Dokter
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="{{ route('jawal-periksa.index') }}"
+                            class="nav-link {{ request()->routeIs('jawal-periksa.*') ? 'active' : '' }}">
+                            <i class="nav-icon fas fa-calendar-check"></i>
+                            <p>
+                                Jadwal Periksa
                             </p>
                         </a>
                     </li>
