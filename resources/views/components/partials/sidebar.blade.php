@@ -105,8 +105,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="{{ route('jawal-periksa.index') }}"
-                            class="nav-link {{ request()->routeIs('jawal-periksa.*') ? 'active' : '' }}">
+                        <a href="{{ route('jadwal-periksa.index') }}"
+                            class="nav-link {{ request()->routeIs('jadwal-periksa.*') ? 'active' : '' }}">
                             <i class="nav-icon fas fa-calendar-check"></i>
                             <p>
                                 Jadwal Periksa
@@ -114,6 +114,7 @@
                         </a>
                     </li>
                 @endif
+                
 
                 <li class="nav-item ">
                     <form method="POST" action="/logout">
